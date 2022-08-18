@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+  }
+html {
+    background-color: white;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+   
+    
+  }
+
+.grtitle{
+display: flex;
+align-items: center;
+  justify-content: center;
+  height: 70vh;
+  width: 100%;
+  background-image: url("images/rose.png");
+}
+
+
+  .container {
+  
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+   
+  }
+  
+  .text {
+   
+    height: 100%;
+    width: 90%;
+    margin-right: 20%;
+    
+  }
+  .menusier{
+display: flex;
+    margin-top: 50px;
+  }
+  .text2 p{
+    display: flex;
+   
+  
+   
+  }
+  .text2 h1{
+
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #de216b;
+    
+  }
+  .container2 {
+  
+    display: flex;
+    width: 100%;
+   
+   
+  }
+  .text3{
+    display: flex;
+    text-align: justify;
+    height: 120px ;
+    width: 30%;
+    margin-left: 50px;
+  }
+  .btn-ensavoir input{
+    color: white;
+    background-color: #de216b;
+    border: none;
+    height: 40px;
+    margin-left: 60%;
+    margin-top: 350px;
+
+ }
+ .vid{
+    position: relative;
+   text-align: center;
+
+ }
+.text4 h1{
+    text-align:left; 
+    color: #de216b;
+    margin-bottom: 50px;
+    
+}
+.text5 {
+    text-align:left; 
+    color: #de216b;
+} 
+
+.text7 {
+
+    text-align:left; 
+ 
+    text-transform: uppercase;
+}
+
+.text7 h1{
+
+    color: #de216b;
+}
+
+.text8 {
+
+    text-align:left; 
+    color: #de216b;
+    margin-top: 200px;
+}
+
+.text9{
+
+    display: flex;
+    text-align: justify;
+    height: 120px ;
+    width: 60%;
+  float: right;
+ 
+    
+} 
+ 
+.text15 {
+ float: right;
+ width:600px;
+ margin-top: 20px;
+
+}
+
+.photo{
+    
+    float: right;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+    
+    }
+  }

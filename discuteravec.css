@@ -1,0 +1,67 @@
+html {
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+  }
+.jaune, img{
+    width:100%;
+    height: 700px;
+   
+}
+.grtitle{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  height: 70vh;
+  width: 100%;
+  margin-bottom: 4%;
+  background-image: url("images/Jaune.png");
+}
+h1{
+    display: flex;
+    text-align:justify;
+    
+}
+ .btn-envoyer input{
+
+    color:white;
+    background-color: rgb(240, 195, 16);
+    border: none;
+    height: 40px;
+    
+}
+.btn-envoyer{
+
+    text-align: center;
+}
+.Ztext input {
+   border:solid 1px rgb(240, 195, 16) ;
+}
+
+
+  input[type=checkbox]{
+    
+    accent-color:  rgb(240, 195, 16);
+    outline: 1px solid  rgb(240, 195, 16) ;
+    
+   
+  }
+ ol{
+    list-style-type: none;
+ }
+
+ @media only screen and (max-width: 600px) {
+  body {
+  
+  }
+}

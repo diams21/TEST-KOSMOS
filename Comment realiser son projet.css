@@ -1,0 +1,109 @@
+html {
+  background-color: white;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+.jaune,
+img {
+  width: 100%;
+  height: 700px;
+}
+.grtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  width: 100%;
+  margin-bottom: 4%;
+  background-image: url("images/orange.png");
+}
+
+.text1{
+  
+text-align: justify;
+
+}
+.text2{
+  color: #f86c08;
+}
+.container{
+  display: flex;
+  background-color:#FF8C42;
+ height: 250px;
+ 
+
+}
+
+.container > div  {
+ 
+  background-color:#E4572E;
+width: 15%;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+ 
+}
+.container .icone{
+position:absolute;
+  padding: auto;
+  padding-top: 150px;
+}
+
+span{
+display: flex;
+color: white;
+justify-content: center;
+align-items: center;
+font-size: 25px;
+
+}
+
+.container2 {
+
+  text-align: center;
+  display: flex;
+  width: 15%;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: 40px;
+  height: 250px;
+  
+}
+
+.icone2{
+  padding: auto;
+  padding-top: 100px;
+position: absolute;
+
+
+}
+
+.container2 {
+
+height: 30px;
+margin-left: 10px;
+padding-top: 70px;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  body {
+  }
+}
